@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- We use this bit so the browser knows how to show the page correctly -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodePen website</title>
+    <!-- We import all the styling archives we will need in the page-->
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/navegation.css">
+    <link rel="stylesheet" href="styles/buttons.css">
+    <link rel="stylesheet" href="styles/homepage.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/media-queries.css">
+
+    <!-- We use this script to be able to use the fonts awesome icons -->
+    <script src="https://kit.fontawesome.com/0f3793b933.js" crossorigin="anonymous"></script>
+
+    <!-- We import all the fonts we'll use for the website-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navigation-wrapper">
+        <div class="menu-wrapper">
+            <div class="logo">
+                <img src="images/codepen-wordmark-display-inside-white@10x.png" alt="CodePen's logo" id="logo-image">
+            </div>
+            <!-- List of other webpages you can go to. -->
+            <div class="explore-link-wrapper">
+                <div class="explore">
+                    Explore
+                </div>
+                <div class="links-wrapper">
+                    <div class="explore-link">
+                        <a href="#">Pens</a>
+                    </div>
+                    <div class="explore-link">
+                        <a href="#">Projects</a>
+                    </div>
+                    <div class="explore-link">
+                        <a href="#">Posts</a>
+                    </div>
+                    <div class="explore-link">
+                        <a href="#">Collections</a>
+                    </div>
+                    <div class="dropdown-wrapper">
+                    <a href="#">Spark <i class="fa-solid fa-chevron-down"></i></a>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="login-wrapper">
+            <!-- You log in here -->
+            <button type="button" class="create-button">Create <i class="fa-solid fa-chevron-down"></i></button>
+            <a href="#" class="search-button"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <button type="submit" class="login-button">Log in</button>
+            <button type="submit" class="sign-up-button">Sign up</button>
+        </div>
+    </div>
+    <div class="intro-info-section">
+        <div class="left-side-wrapper">
+            <div class="text-wrapper">
+                <div class="upper-text">
+                    CodePen is a <strong>social development environment</strong> for front-end designers and developers. 👋 <!-- We can use a fonts awesome icon but using the emoji here works perfectly fine -->
+                </div>
+                <div class="lower-text">
+                    It's the best place to build and deploy a website, show off your work, build test cases, and find inspiration
+                </div>
+            </div>
+            <div class="sign-up-wrapper">
+                <!-- We're using a tag links which we will style to make them look like cool user-friendly buttons -->
+                <a href="#" class="big-sigh-up-button" id="big-sigh-up-button">Sign up for free</a>
+                <a href="#" class="big-learn-more-button" id="big-learn-more-button">Learn more</a>
+            </div>
+        </div>
+        <div class="right-side-wrapper">
+            <div class="codepen-projects">
+                <div class="explore-link">
+                    This is <a href="#">CodePen Projects</a>!
+                </div>
+            </div>
+            <div class="image-wrapper"> 
+                <img src="images/CodePen's projects.png" alt="CodePen's projects" id="codepen-image">
+            </div>
+        </div>
+    </div>
+    <div class="footer-wrapper">
+        <!-- This is the four sections of the footer of the webpage-->
+            <a href="#">
+                <span class="codepen-for">CodePen for</span>
+                <span class="teams">teams</span>
+            </a>
+            <a href="#">
+                <span class="codepen-for">CodePen for</span>
+                <span class="education">education</span>
+            </a>
+            <a href="#">
+                <span class="codepen-for">CodePen for</span>
+                <span class="privacy">privacy</span>
+            </a>
+            <a href="#">
+                <span class="codepen-for">CodePen for</span>
+                <span class="writing">writing</span>
+            </a>
+        
+    </div>
+</body>
+</html>

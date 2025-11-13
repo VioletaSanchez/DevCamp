@@ -1,0 +1,35 @@
+/* Styles for the footer section of the page */
+
+.footer-wrapper{
+    background-color: grey;
+    color:white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+    transition: 0.2s;
+    border: 1px solid #676767;
+}
+
+.footer-wrapper a {
+    flex: 1;
+    color: white;
+    text-align: center;
+    border: 1px solid grey;
+    padding: 0.5rem 1rem;
+    background-color: #36383f;
+    text-decoration: none;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.footer-wrapper a .teams, .education, .privacy, .writing {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+.footer-wrapper a:hover {
+    background-color: #434343;
+}

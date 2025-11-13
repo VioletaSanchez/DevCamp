@@ -1,0 +1,10 @@
+/* Common styles */
+body{
+    margin: 0px;
+    font-family: "Lato", Tahoma, sans-serif;
+    background-color: rgb(25, 26, 29); /* MUST REMOVE OR CHANGE, as this is the exact color from the codepen.io website */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", Tahoma, sans-serif;
+} 

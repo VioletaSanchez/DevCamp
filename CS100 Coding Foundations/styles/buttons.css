@@ -1,0 +1,82 @@
+/* Common button styles */
+
+.intro-info-section > .left-side-wrapper > .sign-up-wrapper {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.intro-info-section > .left-side-wrapper > .sign-up-wrapper a {
+    color: black;
+    border: 3px solid transparent;
+    cursor: pointer;
+    background-color: hsl(139.41deg 58.62% 54.51%);
+    display: inline-block;
+    padding: 10px 16px;
+    margin: 0 20px 0 0;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.8em;
+}
+
+.intro-info-section > .left-side-wrapper > .sign-up-wrapper > #big-sigh-up-button:hover{
+    background-color: hsl(139.62deg 59.09% 34.51%);
+}
+
+.intro-info-section > .left-side-wrapper > .sign-up-wrapper > #big-learn-more-button {
+    color: white;
+    background-color: black;
+}
+
+.intro-info-section > .left-side-wrapper > .sign-up-wrapper > #big-learn-more-button:hover{
+    background-color: grey;
+}
+
+.login-wrapper {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.login-wrapper > .create-button, .login-button, .sign-up-button {
+    color: white;
+    background-color: #36383F;
+    font-size: 1rem;
+    text-shadow: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    border: 3px solid transparent;
+    cursor: pointer;
+    padding: 10px 16px;
+    margin: 0 10px 0 0;
+}
+
+.login-wrapper > .create-button i {
+    color: hsl(139.41deg 58.62% 54.51%);
+}
+
+.login-wrapper > .create-button:hover i {
+    color: hsl(139.62deg 59.09% 34.51%);
+}
+
+.login-wrapper > .search-button {
+    font-size: 1.8em;
+    margin: 0 10px;
+    color: grey;
+    text-shadow: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    border: 3px solid transparent;
+    cursor: pointer;
+    padding: 10px 16px;
+    margin: 0 10px 0 0;
+}
+
+.login-wrapper > .create-button:hover, .login-button:hover, .sign-up-button:hover {
+    background-color: grey;
+}
+
+.login-wrapper > .search-button:hover {
+    color: white;
+}

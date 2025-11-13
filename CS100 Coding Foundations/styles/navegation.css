@@ -1,0 +1,61 @@
+/* Common navigation bar styles */
+/* .navigation-wrapper is at the left of the webpage */
+
+.navigation-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.navigation-wrapper > .menu-wrapper > .logo > #logo-image {
+    width: 250px;
+    height: 100%;
+    float: left;
+    margin: 20px 40px;
+}
+
+.navigation-wrapper > .menu-wrapper {
+    display: flex;
+    align-items: center;
+    grid-gap: 5px;
+}
+
+.navigation-wrapper > .menu-wrapper > .explore-link-wrapper > .explore {
+    color: gold;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navigation-wrapper > .menu-wrapper > .explore-link-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: left;
+}
+
+.navigation-wrapper > .menu-wrapper > .explore-link-wrapper > .links-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation-wrapper > .menu-wrapper > .explore-link-wrapper > .links-wrapper > .explore-link {
+    width: 120px;
+    font-weight: 800;
+}
+
+
+.navigation-wrapper > .menu-wrapper > .explore-link-wrapper > .links-wrapper > .explore-link a {
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.navigation-wrapper > .menu-wrapper > .explore-link-wrapper > .links-wrapper > .explore-link a:hover, .dropdown-wrapper a:hover {
+    color:aqua;
+}
+
+.dropdown-wrapper a {
+    text-decoration: none;
+    color: #acacac;
+}
